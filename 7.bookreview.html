@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Form 📓</title>
+</head>
+<body style="font-family:Playwrite AU SA;">
+           <form>
+            <h1>Book Review 📓</h1>
+
+            <fieldset>
+                <legend>Book Details</legend>
+                <div>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title"><br><br>
+                </div>
+                <div>
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author"><br><br>
+                </div>
+                <div>
+                    <label for="publishing_date">Publishing Date:</label>
+                    <input type="date" id="publishing_date" name="publishing_date"><br><br>
+                </div>
+                <div>
+                    <label for="pages">Pages:</label>
+                    <input type="number" id="pages" name="pages"><br><br>
+                </div>
+                <div>
+                    <label for="genre">Genre:</label>
+                    <input type="text" id="genre" name="genre"><br><br>
+                </div>
+                <div>
+                    <label for="language">Language:</label>
+                    <input type="text" id="language" name="language"><br><br>
+                </div>
+                <div>
+                    <label for="start">Start Date:</label>
+                    <input type="date" id="start" name="start"><br><br>
+                </div>
+                <div>
+                    <label for="finish">Finish Date:</label>
+                    <input type="date" id="finish" name="finish"><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rating</legend>
+                <div>
+                    <label>Stars:</label><br>
+                    <label><input type="radio" name="stars" value="1">⭐</label><br>
+                    <label><input type="radio" name="stars" value="2">⭐⭐</label><br>
+                    <label><input type="radio" name="stars" value="3">⭐⭐⭐</label><br>
+                    <label><input type="radio" name="stars" value="4">⭐⭐⭐⭐</label><br>
+                    <label><input type="radio" name="stars" value="5">⭐⭐⭐⭐⭐</label><br><br>
+                </div>
+                <div>
+                    <label>Tears:</label><br>
+                    <label><input type="radio" name="tears" value="1">💔</label><br>
+                    <label><input type="radio" name="tears" value="2">💔💔</label><br>
+                    <label><input type="radio" name="tears" value="3">💔💔💔</label><br>
+                    <label><input type="radio" name="tears" value="4">💔💔💔💔</label><br>
+                    <label><input type="radio" name="tears" value="5">💔💔💔💔💔</label><br><br>
+                </div>
+                <div>
+                    <label>Spicy:</label><br>
+                    <label><input type="radio" name="spicy" value="1">❤️</label><br>
+                    <label><input type="radio" name="spicy" value="2">❤️❤️</label><br>
+                    <label><input type="radio" name="spicy" value="3">❤️❤️❤️</label><br>
+                    <label><input type="radio" name="spicy" value="4">❤️❤️❤️❤️</label><br>
+                    <label><input type="radio" name="spicy" value="5">❤️❤️❤️❤️❤️</label><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Characters</legend>
+                <div>
+                    <label for="best_character">Best Character:</label>
+                    <input type="text" id="best_character" name="best_character"><br><br>
+                </div>
+                <div>
+                    <label for="worst_character">Worst Character:</label>
+                    <input type="text" id="worst_character" name="worst_character"><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Book Format</legend>
+                <div>
+                    <label><input type="checkbox" name="format" value="hardcover"> Hardcover</label><br>
+                    <label><input type="checkbox" name="format" value="paperback"> Paperback</label><br>
+                    <label><input type="checkbox" name="format" value="ebook"> Ebook</label><br><br>
+                </div>
+                <div>
+                    <label for="price">Price:</label>
+                    <input type="number" id="price" name="price" step="0.01"><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Detailed Ratings</legend>
+                <div>
+                    <label for="quality_of_writing">Quality of Writing:</label>
+                    <select id="quality_of_writing" name="quality_of_writing">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="plot_development">Plot Development:</label>
+                    <select id="plot_development" name="plot_development">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="pace">Pace:</label>
+                    <select id="pace" name="pace">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="characters">Characters:</label>
+                    <select id="characters" name="characters">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="ease_of_reading">Ease of Reading:</label>
+                    <select id="ease_of_reading" name="ease_of_reading">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="ending">Ending:</label>
+                    <select id="ending" name="ending">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Recommendation</legend>
+                <div>
+                    <label>Would I recommend?</label><br><br>
+                    <label><input type="radio" name="recommend" value="yes"> Yes</label><br>
+                    <label><input type="radio" name="recommend" value="no"> No</label><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Keywords</legend>
+                <div>
+                    <label for="keywords"></label><br>
+                    <textarea id="keywords" name="keywords" rows="4" cols="50"></textarea><br><br>
+                </div>
+            </fieldset>
+
+            <div>
+                 <br>
+                 <br>
+                <button type="submit">Submit Review</button>
+            </div>
+        </form>
+    </body>
+</html>

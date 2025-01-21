@@ -1,0 +1,85 @@
+/* Basic body and text styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://i.postimg.cc/WD4zhbrg/ethereal-cloudscape-beauty-stockcake.png'); /* Replace with the actual path to your image */
+    background-size: 100% 100%; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+}
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Content section */
+.content {
+    margin: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post h2 {
+    color: #333;
+}
+
+.post p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
